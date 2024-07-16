@@ -14,11 +14,17 @@
 
 
 
-// generate a random number
+// generate a random number and display in the random-num box
+let genButton = document.querySelector('#generate-button');
+let randomNum = document.querySelector('.random-num');
 
-document.querySelector('#generate-button').onclick = function () {
-    alert('you clicked')
+genButton.onclick = function () {
+let numA = Math.floor(Math.random() * 100)
+randomNum.innerHTML = numA
+console.log(numA)
 }
+
+
 
 
 
