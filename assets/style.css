@@ -91,7 +91,7 @@ body {
     color: #F2FDFF;
 }
 
-.generate-button {
+#generate-button {
     padding: 15px;
     margin: 10px auto;
 }

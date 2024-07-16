@@ -16,8 +16,10 @@
 
 // generate a random number
 
-let numA = Math.floor(Math.random)*10
+document.querySelector('#generate-button').onclick = function () {
+    alert('you clicked')
+}
 
 
 
-console.log(numA)
+
