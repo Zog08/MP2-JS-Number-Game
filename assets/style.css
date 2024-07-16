@@ -42,12 +42,10 @@ body {
 /*------------------------------Game area styling--*/
 
 .game-area {
-    display: inline;
-    margin: 25px auto;
-    justify-content: center;
+    margin: 40px auto;
 }
 
-.game-area div {
+.piece {
    border: 1px solid #4A5759;
    margin: 2px;
    display: flex;
@@ -62,3 +60,38 @@ body {
    border-radius: 5px;
 }
 
+.generator-area {
+    display: inline-block;
+    align-items: center;
+    margin: auto;
+}
+
+.game-tower {
+    margin: auto;
+    align-content: center;
+}
+
+.random-num {
+    border: 1px solid #4A5759;
+    margin: auto;
+    display: flex;
+    width: 200px;
+    height:100px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color: #F2FDFF;
+    color: #4A5759;
+    border-radius: 5px;
+}
+
+.generate-heading {
+    font-family: "Bona Nova SC";
+    color: #F2FDFF;
+}
+
+.generate-button {
+    padding: 15px;
+    margin: 10px auto;
+}
