@@ -15,14 +15,18 @@
 
 
 // generate a random number and display in the random-num box
+// remove button when clicked once
 let genButton = document.querySelector('#generate-button');
 let randomNum = document.querySelector('.random-num');
+let piece = document.querySelectorAll('.piece')
 
 genButton.onclick = function () {
-let numA = Math.floor(Math.random() * 100)
-randomNum.innerHTML = numA
-console.log(numA)
+let numA = Math.floor(Math.random() * 100);
+randomNum.innerHTML = numA;
+genButton.disabled = true;
 }
+
+
 
 
 
